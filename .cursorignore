@@ -1,0 +1,18 @@
+# Add directories or file patterns to ignore during indexing (e.g. foo/ or *.csv)
+# 忽略整个 node_modules 目录（包含其所有子目录和子文件）
+node_modules/
+
+# 忽略所有 .log 文件
+*.log
+
+# 忽略名为 temp 的目录
+temp/
+
+# 忽略特定的文件，如某个测试数据文件
+testData.csv
+
+*.txt
+
+docs/*.md
+
+docs/**/*.md
